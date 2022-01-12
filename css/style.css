@@ -21,7 +21,7 @@ a:hover {
   color: black;
 }
 .sec1 {
-  background-image: url(../images/و.jpg);
+  background-image: url(../images/73.jpg);
   width: 100%;
   height: 395px;
   background-repeat: no-repeat;
@@ -45,12 +45,13 @@ nav {
   padding-left: 5%;
   padding-right: 10%;
   height: 90px;
+  position: fixed;width: 100%;}
   /* display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 25px;*/
-}
+
 .hr1 {
   width: 80%;
   background-color: white;
@@ -62,25 +63,19 @@ input {
   background-color: transparent;
 }
 /*            end of nav    */
-.card1 {
+/*.card1 {
   width: 30%;
-}
+}*/
 i {
   color: white;
   font: size 40px;
   display: inline-block;
 }
-.card1 p {
+/*.card1 p {
   color: white;
   margin-left: 40px;
-}
-.d-flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  height: 250px;
-  padding: 25px;
-}
+}/*/
+
 .fa-regular {
   font-size: 60px;
   color: white;
@@ -91,9 +86,9 @@ i {
 }
 /*end of nav and sec1*/
 
-.card2 p {
+/*.card2 p {
   color: dimgray;
-}
+}*/
 
 footer {
   justify-content: space-around;
@@ -103,7 +98,7 @@ footer {
   flex-wrap: wrap;
   height: 150px;
 }
-.text-white {
+.white-text {
   color: white;
 }
 .div-m {
@@ -203,6 +198,74 @@ footer {
 .div-img{width:90% ;height: 400px;margin-left: 10%;margin-top: 20px;}
 nav.s-nav{width: 100%;height: 50px;display:flex  ;flex-wrap: wrap ;justify-content: space-between ;padding-right: 0px ;padding-left: 0px ;
   }
-  /*.li3{display: inline-block;}
-  .div-ul{width: 60%;}*/
+  .li3{display: inline-block;}
+  .div-ul{width: 60%;}
+  /*.d-icon{width: 60px; height: 60px; border-radius: 50%;border-right: 2px solid white;border-left: 2px solid darkorange;border-top: 2px solid darkorange; position: relative;}
+  .card1{display: flex;flex-wrap: wrap;justify-content: flex-start; width: 30%; margin-top: 5%;}
+  p.float{position: absolute;top: 30%;left: 40%;color: white;}*/
+  .d-flex {width:100% ;
+    display: flex;
+    flex-wrap: wrap ;}
   
+  .card1{margin-top: 20%;width: 25%;display: flex;
+    margin-left: 61px;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+  .ic{width: 40px;height: 40px;border-radius: 50%;border-top: 2px solid darkorange;border-right: 2px solid darkorange;position: relative;}
+  .ic p{position: absolute;top: 20%;left: 20%;}
+  span.span{    left: 6%;
+    color: white;
+    position: absolute;
+    top: 44%;
+    line-height: 1;
+    font-size: 20px;
+   /* left: 7%;
+    color: white;
+    position: absolute;
+    bottom: 46%;
+    line-height: 1;
+    font-size: 25px;*/
+}
+.div-pa{width:50%}
+.div-p>p{color: white;}
+.card2{margin-top: 20%;width: 20%;display: flex ;flex-wrap: wrap;justify-content: space-between;}
+.ico{width: 40px;height: 40px;border-radius: 50%;border-top: 2px solid rgb(38, 0, 255);border-right: 2px solid rgb(38, 0, 255);position: relative;}
+span.spa2{
+  left: 31%;
+  color: white;
+  position: absolute;
+  bottom: 53%;
+  line-height: 1;
+  font-size: 20px;}/*left: 32%;{
+  left: 31%;
+  color: white;
+  position: absolute;
+  bottom: 39%;
+  line-height: 1;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 46%;
+  line-height: 1;
+  font-size: 25px;}
+  .div-p2>p{color: yellow;}*/
+  /*end of 2 cards*/
+  .card3{ margin-left: 50px; margin-top: 20%;width: 20%;display: flex ;flex-wrap: wrap;justify-content: space-between;position: relative;}
+  .icon3{width: 40px;height: 40px;border-radius: 50%;border-top: 2px solid darkorange;border-right: 2px solid darkorange;position: relative;}
+span.spa3{    color: white;
+  position: absolute;
+  left: 6%;
+  bottom: 54%;
+  line-height: 1;
+  font-size: 20px;}
+  .div-p3>p{color:white}
+ /* end of sec1*/
+
+
+ /*
+ */
+ 
