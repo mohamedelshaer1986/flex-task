@@ -27,7 +27,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-
 }
 .overlay {
   background-color: rgba(19, 18, 18, 0.562);
@@ -45,8 +44,10 @@ nav {
   padding-left: 5%;
   padding-right: 10%;
   height: 90px;
-  position: fixed;width: 100%;}
-  /* display: flex;
+  position: fixed;
+  width: 100%;
+}
+/* display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -102,6 +103,9 @@ footer {
 .white-text {
   color: white;
 }
+p.text-white {
+  color: white;
+}
 .div-m {
   margin-top: 2%;
 }
@@ -132,9 +136,9 @@ footer {
   justify-content: space-between;
   margin-top: 50px;
 }
-.right-aside {background-color: dimgray;
+.right-aside {
+  background-color: dimgray;
   width: 60%;
-
 }
 .left-aside {
   width: 30%;
@@ -173,7 +177,8 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  height: 65px;margin-left: 20px;
+  height: 65px;
+  margin-left: 20px;
 }
 .fa-facebook {
   color: black;
@@ -196,53 +201,106 @@ footer {
   border-top: 2px solid darkgray;
   border-bottom: 2px solid darkgray;
 }
-.div-img{width:90% ;height: 400px;margin-left: 10%;margin-top: 20px;}
-nav.s-nav{width: 100%;height: 50px;display:flex  ;flex-wrap: wrap ;justify-content: space-between ;padding-right: 0px ;padding-left: 0px ;
-  }
-  .li3{display: inline-block;}
-  .div-ul{width: 60%;}
-  /*.d-icon{width: 60px; height: 60px; border-radius: 50%;border-right: 2px solid white;border-left: 2px solid darkorange;border-top: 2px solid darkorange; position: relative;}
+.div-img {
+  width: 90%;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+nav.s-nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.li3 {
+  display: inline-block;
+}
+.div-ul {
+  width: 60%;
+}
+/*.d-icon{width: 60px; height: 60px; border-radius: 50%;border-right: 2px solid white;border-left: 2px solid darkorange;border-top: 2px solid darkorange; position: relative;}
   .card1{display: flex;flex-wrap: wrap;justify-content: flex-start; width: 30%; margin-top: 5%;}
   p.float{position: absolute;top: 30%;left: 40%;color: white;}*/
-  .d-flex {width:100% ;
-    display: flex;
-    flex-wrap: wrap ;}
-  
-  .card1{margin-top: 20%;width: 25%;display: flex;
-    margin-left: 61px;
-
-    flex-wrap: wrap;
-    justify-content: space-between;
+.d-flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.card1 {
+  margin-top: 20%;
+  width: 25%;
+  display: flex;
+  margin-left: 61px;
 
-  .ic{width: 40px;height: 40px;border-radius: 50%;border-top: 2px solid darkorange;border-right: 2px solid darkorange;position: relative;}
-  .ic p{position: absolute;top: 20%;left: 20%;}
-  span.span{    left: 6%;
-    color: white;
-    position: absolute;
-    top: 44%;
-    line-height: 1;
-    font-size: 20px;
-   /* left: 7%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(141, 140, 138);
+  position: relative;
+}
+.ic p {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+span.span {
+  left: 6%;
+  color: white;
+  position: absolute;
+  top: 44%;
+  line-height: 1;
+  font-size: 20px;
+  /* left: 7%;
     color: white;
     position: absolute;
     bottom: 46%;
     line-height: 1;
     font-size: 25px;*/
 }
-.div-pa{width:50%}
-.div-p>p{color: white;}
-.card2{margin-top: 20%;width: 20%;display: flex ;flex-wrap: wrap;justify-content: space-between;}
-.ico{width: 40px;height: 40px;border-radius: 50%;border-top: 2px solid rgb(38, 0, 255);border-right: 2px solid rgb(38, 0, 255);position: relative;}
-span.spa2{
+.div-pa {
+  width: 50%;
+}
+.div-p > p {
+  color: white;
+}
+.card2 {
+  margin-top: 20%;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ico {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-top: 2px solid darkorange;
+  border-right: 2px solid darkorange;
+  border-bottom: 2px solid darkorange;
+  border-left: 2px solid dimgray;
+  position: relative;
+}
+span.spa2 {
   left: 31%;
   color: white;
   position: absolute;
   bottom: 53%;
   line-height: 1;
-  font-size: 20px;}
-  .div-p2>p{color: yellow;}/*left: 32%;{
+  font-size: 20px;
+}
+.div-p2 > p {
+  color: rgb(53, 53, 51);
+} /*left: 32%;{
   left: 31%;
   color: white;
   position: absolute;
@@ -255,21 +313,48 @@ span.spa2{
   line-height: 1;
   font-size: 25px;}
   .div-p2>p{color: yellow;}*/
-  /*end of 2 cards*/
-  .card3{ margin-left: 50px; margin-top: 20%;width: 20%;display: flex ;flex-wrap: wrap;justify-content: space-between;position: relative;}
-  .icon3{width: 40px;height: 40px;border-radius: 50%;border-top: 2px solid darkorange;border-right: 2px solid darkorange;position: relative;}
-span.spa3{    color: white;
+/*end of 2 cards*/
+.card3 {
+  margin-left: 50px;
+  margin-top: 20%;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+.icon3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(141, 138, 135);
+  position: relative;
+}
+span.spa3 {
+  color: white;
   position: absolute;
   left: 6%;
   bottom: 54%;
   line-height: 1;
-  font-size: 20px;}
-  .div-p3>p{color:white}
- /* end of sec1*/
+  font-size: 20px;
+}
+.div-p3 > p {
+  color: white;
+}
+/* end of sec1*/
 
-
- /*
+/*
  */
- h1.text-white{color: white;}
- .div-flex1~p{color:black;}
+h1.text-white {
+  color: white;
+}
+.div-flex1 ~ p {
+  color: black;
+}
+.div-p>p{color: black;}/*
 
+
+
+
+*//*end of header   nav aside*/
+.s-nav{position: unset;} 
