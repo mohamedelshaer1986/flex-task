@@ -476,7 +476,8 @@ p .p-4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 100px;margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .img3 {
   width: 30%;
@@ -502,15 +503,71 @@ p .p-4 {
   position: relative;
   text-align: center;
 }
-.btn3{position: absolute;top: 2%;left: 30%;  width: 100px;color: darkviolet;}
-.btn5{position: absolute;top: 2%;  left: 30%;width: 100px;color: darkviolet;}
-.btn7{position: absolute;top: 2%;  left: 30%;width: 100px;color: darkviolet;}
-.h-3{color: white;padding: 10px;}
+.btn3 {
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  width: 100px;
+  color: darkviolet;
+}
+.btn5 {
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  width: 100px;
+  color: darkviolet;
+}
+.btn7 {
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  width: 100px;
+  color: darkviolet;
+}
+.h-3 {
+  color: white;
+  padding: 10px;
+}
 /* end of sec3*/
-.cont4{width: 80%; display: flex;flex-wrap: wrap;justify-content: space-between;margin: auto;}
-.leftdiv{width: 55%;}
-.rightdiv{ width:  25%}
-.p{text-align: center;}
-.bo{position: relative;}
-.btn-img{position: absolute; top:2% ; left: 2%; width: 80px; color: darkviolet;}
+.cont4 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+.leftdiv {
+  width: 55%;
+}
+.rightdiv {
+  width: 25%;
+}
+.p {
+  text-align: center;
+}
+.bo {
+  position: relative;
+}
+.btn-img {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 80px;
+  color: darkviolet;
+}
 
+/*end of right side*/
+.imgtext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid dimgray;
+  box-shadow: 4px 2px 8px dimgray;
+  margin-top: 20px;
+}
+.img-9 {
+  width: 25%;
+}
+.textsize {
+  width: 65%;
+}
