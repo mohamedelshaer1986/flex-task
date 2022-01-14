@@ -367,7 +367,21 @@ h1.text-white {
 
 */
 .container1{width: 100%;display: flex;flex-wrap: wrap;justify-content: space-between;}
-.div-image1{width: 45%; margin-top: 20px;}
-.contcard{width: 45%;margin-top: 20px;}
-.imgcards{width: 25%;margin-top: 20px;}
+.div-image1{width: 45%;margin-top: 20px;}/*
+
+
+*/.cardimg{width: 45%;margin-top: 20px;justify-content: space-between; display: flex;flex-wrap: wrap;}
+.contimg{border: 2px solid darkgrey;box-shadow: 4px 3px 8px darkgrey;margin-bottom: 5px;}
+.img-p{display: inline-block;width: 54%;margin-left: 5px;}
+.fa-angle-left{    border: 17px solid darkgray;
+  color: black;
+  border-radius: 50%;
+  font-size: larger;
+}
+.fa-angle-right{border: 17px solid darkgray;
+  font-size: larger;
+  color: black;
+  border-radius: 50%;}
+
+
 
