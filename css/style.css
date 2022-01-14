@@ -46,7 +46,6 @@ nav {
   height: 90px;
   position: fixed;
   width: 100%;
-
 }
 /* display: flex;
   flex-wrap: wrap;
@@ -137,7 +136,6 @@ p.text-white {
   justify-content: space-between;
   margin-top: 50px;
 }
-
 
 .left-aside {
   width: 30%;
@@ -269,7 +267,7 @@ span.span {
 .div-pa {
   width: 50%;
 }
-.div-p>p{
+.div-p > p {
   color: white;
 }
 .card2 {
@@ -338,7 +336,7 @@ span.spa3 {
   font-size: 20px;
 }
 .div-p3 > p {
-  color:white;
+  color: white;
 }
 /* end of sec1*/
 
@@ -350,38 +348,161 @@ h1.text-white {
 .div-flex1 ~ p {
   color: black;
 }
-.div-p>p{color: black;}/*
+.div-p > p {
+  color: black;
+} /*
 
 
 
 
-*//*end of header   nav aside*/
-.s-nav{position: unset;} 
+*/ /*end of header   nav aside*/
+.s-nav {
+  position: unset;
+}
 .right-aside {
   background-color: white;
-  width: 60%;}
-  .li3 a{color: dimgray;}
-  .ul1{display: flex;flex-wrap: wrap;justify-content: space-between;}
-.all-border{border-bottom: 2px solid darkorchid;padding-bottom: 32px;}
+  width: 60%;
+}
+.li3 a {
+  color: dimgray;
+}
+.ul1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.all-border {
+  border-bottom: 2px solid darkorchid;
+  padding-bottom: 32px;
+}
 /*                                                            
 
 */
-.container1{width: 100%;display: flex;flex-wrap: wrap;justify-content: space-between;}
-.div-image1{width: 45%;margin-top: 20px;}/*
+.container1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.div-image1 {
+  width: 45%;
+  margin-top: 20px;
+  border: 2px solid darkgray;
+  box-shadow: 4px 3px 8px darkgrey;
+} /*
 
 
-*/.cardimg{width: 45%;margin-top: 20px;justify-content: space-between; display: flex;flex-wrap: wrap;}
-.contimg{border: 2px solid darkgrey;box-shadow: 4px 3px 8px darkgrey;margin-bottom: 5px;}
-.img-p{display: inline-block;width: 54%;margin-left: 5px;}
-.fa-angle-left{    border: 17px solid darkgray;
+*/
+.cardimg {
+  width: 45%;
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contimg {
+  border: 2px solid darkgrey;
+  box-shadow: 4px 3px 8px darkgrey;
+  margin-bottom: 5px;
+}
+.img-p {
+  display: inline-block;
+  width: 54%;
+  margin-left: 5px;
+}
+.fa-angle-left {
+  border: 17px solid darkgray;
   color: black;
   border-radius: 50%;
   font-size: larger;
 }
-.fa-angle-right{border: 17px solid darkgray;
+.fa-angle-right {
+  border: 17px solid darkgray;
   font-size: larger;
   color: black;
-  border-radius: 50%;}
+  border-radius: 50%;
+}
+.mininav {
+  margin-top: 20px;
+}
+
+/*end of mini nav 
 
 
+  */
+.container-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.con-img1 {
+  width: 45%;
+  margin-top: 20px;
+  position: relative;
+  border: 2px solid dimgray;
+  box-shadow: 4px 3px 8px dimgray;
+}
+.btn-3 {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  color: darkslateblue;
+  border: 2px solid transparent;
+  width: 80px;
+}
+.p-4 {
+  display: inline-block;
+}
+/*
+  */
+.minidiv {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bo {
+  border: 4px solid dimgray;
+  box-shadow: 4px 3px 8px dimgray;
+  margin-top: 20px;
+}
+p .p-4 {
+  display: inline-block;
+}
 
+/* nd of asid */
+.sec3 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;margin-bottom: 100px;
+}
+.img3 {
+  width: 30%;
+  background-image: url(../images/m.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+.img5 {
+  width: 30%;
+  background-image: url(../images/wep.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+.img7 {
+  width: 30%;
+  background-image: url(../images/و.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+.btn3{position: absolute;top: 2%;left: 30%;  width: 100px;color: darkviolet;}
+.btn5{position: absolute;top: 2%;  left: 30%;width: 100px;color: darkviolet;}
+.btn7{position: absolute;top: 2%;  left: 30%;width: 100px;color: darkviolet;}
+.h-3{color: white;padding: 10px;}
