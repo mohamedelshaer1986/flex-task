@@ -506,3 +506,11 @@ p .p-4 {
 .btn5{position: absolute;top: 2%;  left: 30%;width: 100px;color: darkviolet;}
 .btn7{position: absolute;top: 2%;  left: 30%;width: 100px;color: darkviolet;}
 .h-3{color: white;padding: 10px;}
+/* end of sec3*/
+.cont4{width: 80%; display: flex;flex-wrap: wrap;justify-content: space-between;margin: auto;}
+.leftdiv{width: 55%;}
+.rightdiv{ width:  25%}
+.p{text-align: center;}
+.bo{position: relative;}
+.btn-img{position: absolute; top:2% ; left: 2%; width: 80px; color: darkviolet;}
+
