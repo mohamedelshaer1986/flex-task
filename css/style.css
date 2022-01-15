@@ -28,10 +28,10 @@ a:hover {
   background-position: center;
   background-size: 100%;
 }
-.overlay {
+/*.overlay {
   background-color: rgba(100, 98, 98, 0.562);
   width: 100%;
-}
+}*/
 .li1 {
   display: inline-block;
   padding-left: 45px;
@@ -42,7 +42,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
   height: 90px;
-  position: fixed;
+  position: fixed;top: 1%;
   width: 100%;
 }
 /* display: flex;
