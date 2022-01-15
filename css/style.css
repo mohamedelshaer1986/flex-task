@@ -458,7 +458,7 @@ h1.text-white {
 .minidiv {
   width: 45%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;justify-content: space-between;
 }
 .bo {
   border: 4px solid dimgray;
@@ -572,3 +572,4 @@ p .p-4 {
   width: 65%;
 }
 .sec4{margin-bottom: 10%;}
+.size{width: 45%;}
