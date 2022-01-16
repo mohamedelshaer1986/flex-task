@@ -42,7 +42,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
   height: 90px;
-  position: fixed;top: 1%;
+  position: fixed;
   width: 100%;
 }
 /* display: flex;
@@ -54,7 +54,7 @@ nav {
 .hr1 {height: 2px;
   width: 80%;
   background-color: white;
-  margin-right: 130px;
+  margin-right: 2px;
 }
 input {
   border: 0;
@@ -75,6 +75,7 @@ i {
   color: white;
   margin-left: 40px;
 }/*/
+.fa-magnifying-glass{position: absolute;top: 20%;right: 10%; color: white;font-size: 25px;}
 
 .fa-regular {
   font-size: 60px;
@@ -484,6 +485,7 @@ p .p-4 {
   background-repeat: no-repeat;
   position: relative;
   text-align: center;
+  filter: saturate(50%);
 }
 .img5 {
   width: 30%;
@@ -524,7 +526,7 @@ p .p-4 {
 }
 .h-3 {
   color: white;
-  padding: 10px;
+  padding: 13%;
 }
 /* end of sec3*/
 .cont4 {
@@ -535,10 +537,10 @@ p .p-4 {
   margin: auto;
 }
 .leftdiv {
-  width: 55%;
+  width: 60%;
 }
 .rightdiv {
-  width: 25%;
+  width: 30%;
 }
 .p {
   text-align: center;
@@ -571,3 +573,6 @@ p .p-4 {
 }
 .sec4{margin-bottom: 10%;}
 .size{width: 45%;}
+.btn{border-bottom: 1px solid white;}
+a.a-3{display: inline-block;color: darkgrey;border: 2px solid darkgrey;border-radius: 40px;margin-left: 50%;margin-bottom: 5%;padding: 1%;}
+a.a-3:hover{background-color: darkorange;}
